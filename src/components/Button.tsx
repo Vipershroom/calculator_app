@@ -3,7 +3,7 @@ import React, { useContext } from 'react'
 const Button = (props: any) => {
   return (
     <div>
-        <button>{props.num}</button>
+        <button>{props.btn}</button>
     </div>
   )
 }

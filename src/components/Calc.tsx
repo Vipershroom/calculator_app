@@ -4,19 +4,23 @@ function Calc() {
   return (
    <>
    <div className='num-grid'>
-        <Button num={7}/>
-        <Button num={8}/>
-        <Button num={9}/>
-        <Button num={'/'} />
-        <Button num={4}/>
-        <Button num={5}/>
-        <Button num={6}/>
-        <Button num={'x'} />
-        <Button num={1}/>
-        <Button num={2}/>
-        <Button num={3}/>
-        <Button num={'-'} />
-        <Button num={0}/>
+        <Button btn={"e"} />
+        <Button btn={"+-"} />
+        <Button btn={"%"}/>
+        <Button btn={"AC"} />
+        <Button btn={7}/>
+        <Button btn={8}/>
+        <Button btn={9}/>
+        <Button btn={'/'} />
+        <Button btn={4}/>
+        <Button btn={5}/>
+        <Button btn={6}/>
+        <Button btn={'x'} />
+        <Button btn={1}/>
+        <Button btn={2}/>
+        <Button btn={3}/>
+        <Button btn={'-'} />
+        <Button btn={0}/>
    </div>
    </>
   );
